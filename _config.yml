@@ -1,0 +1,18 @@
+encoding: "utf-8"
+title: "Abdelhafid ELAZOUZI"
+baseurl: "/"
+description: "Découvrez mon portfolio, une vitrine où je présente mon parcours dans les domaines des systèmes et réseaux informatiques. Cliquez pour en savoir plus !."
+keywords: "Abdelhafid ELAZOUZI, Portfolio, Analyste et consultant en informatique, Analyste et consultant en infrastructure, Analyste et consultant en réseau informatique, Administrateur Linux, Administrateur des systèmes, Administrateur des réseaux informatiques, CV, Technicien en réseaux informatiques, CV de Abdelhafid ELAZOUZI, Portfolio de Abdelhafid ELAZOUZI"
+
+analytics: "UA-199735645-1"
+verify: "UBHEw2OWbJuHMqzK_5LRpME17sOjjl57LB7MHidKA6E"
+bing: "D071D7A049FA7A7AAD1444365043C95B"
+
+# Development Settings
+port: 4000
+# host: 172.20.10.3
+# host: 100.100.100.1
+host: 192.168.1.100
+# host: 192.168.1.101
+# host: 192.168.1.200
+safe: True
