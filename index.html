@@ -447,6 +447,69 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- dns_debian Project-->
+                    <hr class="my-4" />
+                    <div class="row g-4 align-items-stretch project-open-firmwares">
+                        <div class="col-md-5 d-flex project-open-firmwares-media">
+                            <img class="img-fluid w-100 rounded project-open-firmwares-image" src="assets/pdf/project/dns_debian.png" alt="Debian 13 DNS server implementation with BIND9" />
+                        </div>
+                        <div class="col-md-7 d-flex ps-md-4 ps-lg-5 project-open-firmwares-details">
+                            <div>
+                                <h3 class="mb-2">Debian 13 DNS Server Implementation with BIND9</h3>
+                                <p class="mb-2">Built and validated a DNS server environment on Debian 13 using BIND9 for reliable domain resolution.</p>
+                                <ul class="fa-ul mb-3 ms-0">
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Core Stack:</strong> Debian 13, BIND9, and apt for package installation and management.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Validation:</strong> Used named-checkconf and named-checkzone to verify global and zone configurations.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Operations:</strong> Managed service lifecycle with systemctl and monitored runtime status.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Testing:</strong> Used dig queries to confirm forward/reverse DNS resolution and server behavior.</li>
+                                </ul>
+                                <a href="assets/pdf/project/dns_debian.pdf" target="_blank" rel="noopener noreferrer">Project Report (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Debian13-Deployment Project-->
+                    <hr class="my-4" />
+                    <div class="row g-4 align-items-stretch project-open-firmwares">
+                        <div class="col-md-5 d-flex project-open-firmwares-media">
+                            <img class="img-fluid w-100 rounded project-open-firmwares-image" src="assets/pdf/project/Debian13-Deployment.png" alt="Debian 13 server hardening and deployment" />
+                        </div>
+                        <div class="col-md-7 d-flex ps-md-4 ps-lg-5 project-open-firmwares-details">
+                            <div>
+                                <h3 class="mb-2">Debian 13 Server Hardening and Deployment</h3>
+                                <p class="mb-2">Hardened and deployed a Debian 13 server with strict access control, firewall policy, and secure operations baseline.</p>
+                                <ul class="fa-ul mb-3 ms-0">
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Core Platform:</strong> Debian 13 with secure package lifecycle using apt.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Access Security:</strong> SSH key-based authentication, sudo privilege delegation, and Fail2ban brute-force protection.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Network Security:</strong> Nftables configured with a deny-by-default firewall policy.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>System Design:</strong> Strategic partitioning of /, /home, /var, /tmp, and swap for isolation and stability.</li>
+                                </ul>
+                                <a href="assets/pdf/project/Debian13-Deployment.pdf" target="_blank" rel="noopener noreferrer">Project Report (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- dns_slave Project-->
+                    <hr class="my-4" />
+                    <div class="row g-4 align-items-stretch project-open-firmwares">
+                        <div class="col-md-5 d-flex project-open-firmwares-media">
+                            <img class="img-fluid w-100 rounded project-open-firmwares-image" src="assets/pdf/project/dns_slave.png" alt="DNS master-slave replication on Debian 13" />
+                        </div>
+                        <div class="col-md-7 d-flex ps-md-4 ps-lg-5 project-open-firmwares-details">
+                            <div>
+                                <h3 class="mb-2">DNS Master/Slave Replication and Security on Debian 13</h3>
+                                <p class="mb-2">Configured secure DNS replication between master and slave BIND9 servers on Debian 13 with controlled transfer and monitoring.</p>
+                                <ul class="fa-ul mb-3 ms-0">
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Core Setup:</strong> Debian 13 and BIND9 configured in master/slave roles using named.conf.local zone declarations.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Replication:</strong> SOA serial tracking, NOTIFY signaling, and AXFR/IXFR transfers for reliable synchronization.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Security:</strong> ACL restrictions on zone transfers to authorized slave servers only.</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Validation:</strong> Service/log checks with systemctl and journalctl, plus dig queries to verify data integrity.</li>
+                                </ul>
+                                <a href="assets/pdf/project/dns_slave.pdf" target="_blank" rel="noopener noreferrer">Project Report (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
                     <hr class="my-4" />
                 </div>
             </section>
