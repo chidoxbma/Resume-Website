@@ -10972,19 +10972,34 @@ section.resume-section .resume-section-content {
 }
 
 .project-n8n .project-n8n-media,
-.project-n8n .project-n8n-details {
+.project-n8n .project-n8n-details,
+.project-wifi-atack .project-wifi-atack-media,
+.project-wifi-atack .project-wifi-atack-details,
+.project-survey-wifi .project-survey-wifi-media,
+.project-survey-wifi .project-survey-wifi-details,
+.project-study-wifi .project-study-wifi-media,
+.project-study-wifi .project-study-wifi-details {
   min-height: 100%;
 }
 
-.project-n8n .project-n8n-details {
+.project-n8n .project-n8n-details,
+.project-wifi-atack .project-wifi-atack-details,
+.project-survey-wifi .project-survey-wifi-details,
+.project-study-wifi .project-study-wifi-details {
   flex-direction: column;
 }
 
-.project-n8n .project-n8n-media {
+.project-n8n .project-n8n-media,
+.project-wifi-atack .project-wifi-atack-media,
+.project-survey-wifi .project-survey-wifi-media,
+.project-study-wifi .project-study-wifi-media {
   align-items: stretch;
 }
 
-.project-n8n .project-n8n-image {
+.project-n8n .project-n8n-image,
+.project-wifi-atack .project-wifi-atack-image,
+.project-survey-wifi .project-survey-wifi-image,
+.project-study-wifi .project-study-wifi-image {
   display: block;
   width: 100%;
   height: 100%;
@@ -10995,7 +11010,10 @@ section.resume-section .resume-section-content {
 }
 
 @media (max-width: 767.98px) {
-  .project-n8n .project-n8n-image {
+  .project-n8n .project-n8n-image,
+  .project-wifi-atack .project-wifi-atack-image,
+  .project-survey-wifi .project-survey-wifi-image,
+  .project-study-wifi .project-study-wifi-image {
     height: auto;
   }
 }
